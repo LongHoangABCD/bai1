@@ -135,3 +135,24 @@ body{
     font-style: italic;
     font-size: 14px;
 }
+
+
+
+/* PC >= 1024px */
+@media only screen and (min-width: 1240px) and (max-width: 1399px){
+    .web-text p.p-1{
+        left: 44rem;
+    }
+    .web-text p.p-2{
+        top: 9rem;
+        left: 45rem;
+    }
+}
+/* Tablet >=740px  <1024px  */
+@media only screen and (min-width: 740px) and (max-width: 1023px){
+
+}
+/* Phone <740px  */
+@media only screen and (max-width: 739px){
+
+}
